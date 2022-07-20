@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-part {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+.left-side {
+    max-width: 600px;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#background {
+    width: 600px;
+    height: 900px;
+}
+
+.background-color {
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    max-height: 900px;
+    width: 100%;
+    top: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.photo-writing {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 130px;
+    top: 20%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 46px;
+    color: white;
+}
+
+#logo {
+    max-width: 100px;
+    width: 100%;
+    filter: brightness(200%);
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.motto {
+    margin-top: 20px;
+    font-style: italic;
+    width: 75%;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-height: 400px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+input {
+    border: 1px solid #555;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #89adf5;
+}
+
+.form-writing,
+.fields {
+    margin-left: 40px;
+}
+
+.form-writing {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.fields {
+    border: none;
+    display: flex;
+    font-size: 15px;
+}
+
+.first-section,
+.second-section,
+.third-section,
+.fourth-section,
+.fifth-section,
+.sixth-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.below-button {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+a {
+    color: #da6a36;
+}
+
+button {
+  appearance: none;
+  background-color: #da6a36;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+  max-width: 150px;
+  margin-left: 40px;
+}
+
+button:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+button:focus {
+  outline: 1px transparent;
+}
+
+button:before {
+  display: none;
+}
+
+button:-webkit-details-marker {
+  display: none;
+}
